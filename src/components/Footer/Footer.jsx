@@ -11,7 +11,7 @@ const Footer = () => {
           {/* Company Info */}
           <div>
             <img
-              src="/logo-venclima.png"
+              src={`${import.meta.env.BASE_URL}logo-venclima.png`}
               alt="VentClima"
               className="h-20 mb-6"
             />

@@ -37,7 +37,7 @@ const Navbar = () => {
           {/* Logo */}
           <a href="#" className="flex items-center">
             <img
-              src="/logo-venclima.png"
+              src={`${import.meta.env.BASE_URL}logo-venclima.png`}
               alt="VentClima"
               className="h-16 md:h-20"
             />
